@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Techfest Official Event Portal task
+**🎥 Live Demo Recording:** [https://drive.google.com/file/d/1p9OF2ZBVuAVwLt05FXXrEcKtos6HmH51/view?usp=sharing]
 
-## Getting Started
+*(Note: Viewer access is enabled)*
+---
+A high-performance, immersive single-page landing site built for **Techfest** (Asia's Largest Science and Technology Festival). This project features a custom WebGL shader background, a global cursor-tracking 3D robot, and a premium Cyber-Glassmorphism user interface.
 
-First, run the development server:
+## ✨ Key Features
 
+* **True Global 3D Tracking:** Utilizes a borderless, fixed-viewport Spline scene. The UI layer implements "Swiss Cheese" pointer events (`pointer-events-none` on wrappers, `auto` on specific elements) allowing the user's cursor to interact with the 3D model through the empty spaces of the website.
+* **Custom WebGL Shader:** A highly optimized, full-screen Three.js fragment shader that renders an animated, interference-pattern grid in the background.
+* **Cyber-Glassmorphism UI:** Built with Tailwind CSS v4, featuring backdrop blurs, neon cyan accents, hover-responsive elevation, and terminal-style aesthetics.
+* **Single-File Architecture:** The core logic, 3D hooks, and UI layouts are elegantly streamlined into a single, monolithic `app/page.tsx` file for ultimate simplicity and ease of maintenance.
+
+## 🛠️ Tech Stack
+
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+* **3D Engine:** [Spline](https://spline.design/) via `@splinetool/react-spline`
+* **Shader Graphics:** [Three.js](https://threejs.org/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+
+## 🚀 Getting Started
+
+To run this project locally on your machine or in a Codespace:
+
+### 1. Install Dependencies
+Ensure you have Node.js installed, then run:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
