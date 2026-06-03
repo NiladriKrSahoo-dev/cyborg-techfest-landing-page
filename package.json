@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@splinetool/react-spline": "^4.1.0",
+    "@splinetool/runtime": "^1.12.96",
+    "@tailwindcss/postcss": "^4.3.0",
+    "enhanced-resolve": "^5.22.1",
+    "lucide-react": "^1.17.0",
+    "next": "^16.2.7",
+    "postcss": "^8.5.15",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.0",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.1",
+    "install": "^0.13.0",
+    "typescript": "^6.0.3",
+    "typescriptnpm": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "next dev"
+  }
+}
